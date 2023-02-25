@@ -160,6 +160,78 @@ body {
 }
 
 
+@media screen and (max-width: 400px) {
+  body {
+    padding-top: 82px;
+  }
+  .container-1  {
+    flex-direction: column;
+    width: 327px;
+    height: 219px;
+  }
+
+  .left-column :nth-child(1) {
+    width: 327px;
+    height: 102px;
+    font-size: 40px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .left-column :nth-child(2) {
+    width: 331px;
+    height: 100px;
+    text-align: center;
+    margin-top: 17px;
+  }
+
+  .right-column {
+    width: 327px;
+    height: 266px;
+  }
+
+  .rate-box, .two, .three {
+    margin-left: 0;
+    flex-direction: column;
+    width: 327px;
+    height: 78px;
+  }
+
+  .star-box {
+    margin: auto;
+    margin-top: 16px;
+  }
+
+  .rate-box p {
+    margin: auto;
+    margin-top: 0px;
+  }
+  
+
+  .container-2 {
+    flex-direction: column;
+    width: 327px;
+    height: 800px;
+    margin-top: 300px;
+  }
+
+  .card-box {
+    margin-top: 49px;
+    width: 327px;
+  }
+  
+  .second {
+    margin-top: 16px;
+  }
+  
+  
+  .third {
+    margin-top: 16px;
+  }
+  
+
+}
+
 
 
 
