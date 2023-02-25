@@ -1,98 +1,233 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap" rel="stylesheet">
-  <title>Social proof section</title>
-</head>
-<body>
-  <img class="top-pattern" src="/img/bg-pattern-top-desktop.svg" alt="">
-  <img class="bottom-pattern" src="/img/bg-pattern-bottom-desktop.svg" alt="">
-  <main>
-    <div class="container-1">
-      <div class="left-column">
-        <h1>10,000+ of our users love our products.</h1>
-        <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
-      </div>
-      <div class="right-column">
-        <div class="rate-box">
-          <div class="star-box">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-          </div>
-          <p>Rated 5 Stars in Reviews</p>
-        </div>
-        <div class="rate-box two">
-          <div class="star-box">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-          </div>
-          <p>Rated 5 Stars in Report Guru</p>
-        </div>
-        <div class="rate-box three">
-          <div class="star-box">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-            <img src="/img/icon-star.svg" alt="star">
-          </div>
-          <p>Rated 5 Stars in BestTech</p>
-        </div>
-      </div>
-    </div>
 
-    <div class="container-2">
-      <div class="card-box">
-        <div class="author">
-          <img src="/img/image-colton.jpg" alt="avatar">
-          <div class="author-name">
-            <p>Colton Smith</p>
-            <p>Verified Buyer</p>
-          </div>
-        </div>
-        <p class="opinion">
-          “ We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent! ”
-        </p>
-      </div>
 
-      <div class="card-box second">
-        <div class="author">
-          <img src="/img/image-irene.jpg" alt="avatar">
-          <div class="author-name">
-            <p>Irene Roberts</p>
-            <p>Verified Buyer</p>
-          </div>
-        </div>
-        <p class="opinion">
-          “ Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.”
-        </p>
-      </div>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-      <div class="card-box third">
-        <div class="author">
-          <img src="/img/image-anne.jpg" alt="avatar">
-          <div class="author-name">
-            <p>Anne Wallace</p>
-            <p>Verified Buyer</p>
-          </div>
-        </div>
-        <p class="opinion">
-          “ Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone! ”
-        </p>
-      </div>
-    </div>
-  </main>
-</body>
-</html>
+body {
+  background-color: #ffffff;
+  padding-top: 118px;
+  font-family: league spartan;
+}
+
+.top-pattern {
+  position: fixed;
+  top: 0px;
+}
+
+.bottom-pattern {
+  position: fixed;
+  top: 190px;
+  left: 450px;
+  z-index: -1;
+}
+
+.container-1 {
+  width: 1110px;
+  height: 245px;
+  margin: auto;
+  display: flex;
+}
+
+.left-column h1 {
+  font-family: 700;
+  font-size: 56px;
+  line-height: 48px;
+  color: #512051;
+  width: 445px;
+}
+
+.left-column p {
+  font-weight: 500;
+  color: #927B91;
+  font-size: 19px;
+  line-height: 25px;
+  width: 445px;
+  margin-top: 25px;
+}
+
+.right-column {
+  margin-top: 27px;
+}
+
+.rate-box {
+  display: flex;
+  width: 445px;
+  height: 56px;
+  margin-left: 125px;
+  background-color: #F7F2F7;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  z-index: 0;
+}
+
+.two {
+  margin-left: 173px;
+}
+
+.three {
+  margin-left: 220px;
+}
+
+.star-box {
+  width: 116.55px;
+  height: 15.77px;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-top: 20.09px;
+}
+
+.rate-box p { 
+  font-weight: 700;
+  color: #512051;
+  line-height: 15.64px;
+  margin-top: 20px;
+  margin-left: 32.45px;
+}
+
+.container-2 {
+  width: 1110px;
+  height: 272px;
+  margin: auto;
+  margin-top: 71px;
+  margin-bottom: 100px;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.card-box {
+  width: 350px;
+  height: 234px;
+  background-color:  #512051;
+  color: white;
+  padding-top: 46px;
+  border-radius: 8px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  width: 162px;
+  height: 40px;
+  margin-left: 32px;
+}
+
+.author img {
+  border-radius: 20px;
+  margin-right: 23px;
+}
+
+.author-name {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.author-name :nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15.64px;
+}
+
+.author-name :nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color:  #EE69A4;
+}
+
+.opinion {
+  font-weight: 500;
+  font-size: 16px;
+  width: 286px;
+  height: 88px;
+  margin-left: 32px;
+  margin-top: 31px;
+  line-height: 22px;
+}
+
+.second {
+  margin-top: 22px;
+}
+
+
+.third {
+  margin-top: 38px;
+}
+
+
+@media screen and (max-width: 400px) {
+  body {
+    padding-top: 82px;
+  }
+  .container-1  {
+    flex-direction: column;
+    width: 327px;
+    height: 219px;
+  }
+
+  .left-column :nth-child(1) {
+    width: 327px;
+    height: 102px;
+    font-size: 40px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .left-column :nth-child(2) {
+    width: 331px;
+    height: 100px;
+    text-align: center;
+    margin-top: 17px;
+  }
+
+  .right-column {
+    width: 327px;
+    height: 266px;
+  }
+
+  .rate-box, .two, .three {
+    margin-left: 0;
+    flex-direction: column;
+    width: 327px;
+    height: 78px;
+  }
+
+  .star-box {
+    margin: auto;
+    margin-top: 16px;
+  }
+
+  .rate-box p {
+    margin: auto;
+    margin-top: 0px;
+  }
+  
+
+  .container-2 {
+    flex-direction: column;
+    width: 327px;
+    height: 800px;
+    margin-top: 300px;
+  }
+
+  .card-box {
+    margin-top: 49px;
+    width: 327px;
+  }
+  
+  .second {
+    margin-top: 16px;
+  }
+  
+  
+  .third {
+    margin-top: 16px;
+  }
+  
+
+}
