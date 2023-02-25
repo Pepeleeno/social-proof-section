@@ -1,0 +1,167 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  padding-top: 118px;
+  font-family: league spartan;
+}
+
+.top-pattern {
+  position: fixed;
+  top: 0px;
+}
+
+.bottom-pattern {
+  position: fixed;
+  top: 190px;
+  left: 450px;
+  z-index: -1;
+}
+
+.container-1 {
+  width: 1110px;
+  height: 245px;
+  margin: auto;
+  display: flex;
+}
+
+.left-column h1 {
+  font-family: 700;
+  font-size: 56px;
+  line-height: 48px;
+  color: #512051;
+  width: 445px;
+}
+
+.left-column p {
+  font-weight: 500;
+  color: #927B91;
+  font-size: 19px;
+  line-height: 25px;
+  width: 445px;
+  margin-top: 25px;
+}
+
+.right-column {
+  margin-top: 27px;
+}
+
+.rate-box {
+  display: flex;
+  width: 445px;
+  height: 56px;
+  margin-left: 125px;
+  background-color: #F7F2F7;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  z-index: 0;
+}
+
+.two {
+  margin-left: 173px;
+}
+
+.three {
+  margin-left: 220px;
+}
+
+.star-box {
+  width: 116.55px;
+  height: 15.77px;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-top: 20.09px;
+}
+
+.rate-box p { 
+  font-weight: 700;
+  color: #512051;
+  line-height: 15.64px;
+  margin-top: 20px;
+  margin-left: 32.45px;
+}
+
+.container-2 {
+  width: 1110px;
+  height: 272px;
+  margin: auto;
+  margin-top: 71px;
+  margin-bottom: 100px;
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+}
+
+.card-box {
+  width: 350px;
+  height: 234px;
+  background-color:  #512051;
+  color: white;
+  padding-top: 46px;
+  border-radius: 8px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  width: 162px;
+  height: 40px;
+  margin-left: 32px;
+}
+
+.author img {
+  border-radius: 20px;
+  margin-right: 23px;
+}
+
+.author-name {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.author-name :nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 15.64px;
+}
+
+.author-name :nth-child(2) {
+  font-weight: 400;
+  font-size: 16px;
+  color:  #EE69A4;
+}
+
+.opinion {
+  font-weight: 500;
+  font-size: 16px;
+  width: 286px;
+  height: 88px;
+  margin-left: 32px;
+  margin-top: 31px;
+  line-height: 22px;
+}
+
+.second {
+  margin-top: 22px;
+}
+
+
+.third {
+  margin-top: 38px;
+}
+
+
+
+
+
+
+
